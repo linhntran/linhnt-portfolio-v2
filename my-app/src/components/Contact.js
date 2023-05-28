@@ -64,7 +64,7 @@ function Contact() {
             <h2 className="contact-header">Contact Me</h2>
             {messageSent && (
               <div className="alert alert-success" role="alert">
-                Your message has been sent successfully!
+                Your message has been sent!
               </div>
             )}
             <Form onSubmit={handleSubmit} noValidate>

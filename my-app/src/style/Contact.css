@@ -1,15 +1,12 @@
-/* CONTACT SECTION */
-
-/* Styling for the header element in the contact section */
 .contact-header {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 50px;
+    font-size: 40px;
   }
-  /* Styling for the custom send message button */
+
   .custom-send-message-button {
-    background-color: #4caf50;
+    background-color: #912f56;
     border: none;
     color: white;
     text-align: center;
@@ -22,8 +19,8 @@
     border-radius: 4px;
     transition-duration: 0.4s;
   }
-  /* Styling for the custom send message button when hovered over */
+
   .custom-send-message-button:hover {
-    background-color: #16651a;
+    background-color: #912f56;
     color: white;
   }

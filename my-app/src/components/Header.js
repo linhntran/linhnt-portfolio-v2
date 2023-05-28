@@ -10,7 +10,7 @@ function Header() {
       <Container fluid className="bg-dark">
         <Row className="justify-content-center text-center mb-0">
           <Col className="pb-0">
-            <h1 className="text-white" style={{ fontSize: "70px" }}>
+            <h1 className="text-white" style={{ fontSize: "20px" }}>
               <Link
                 to="/linhnt-portfolio-v2/"
                 className="text-white text-decoration-none"

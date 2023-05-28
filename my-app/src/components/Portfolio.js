@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "./Project";
-import BlogSphere from "../images/bird.JPG";
-import CosmicClimate from "../images/meerkat.JPG";
-import WeatherDashboard from "../images/monkey.JPG";
-import PassGenerator from "../images/panda.JPG";
-import WorkDayScheduler from "../images/penguin.JPG";
-import NoteTaker from "../images/wolf.JPG";
+import BlogSphere from "../images/blogsphere.png";
+import CosmicClimate from "../images/cosmiclimate.png";
+import WeatherDashboard from "../images/weather.png";
+import PassGenerator from "../images/password.png";
+import WorkDayScheduler from "../images/workday.png";
+import NoteTaker from "../images/notetaker.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
@@ -18,7 +18,7 @@ function Portfolio() {
           {[
             {
               title: "Blog Sphere",
-              description: "A collaborative project",
+              description: "A collaborative project using the MVC paradigm, our own server-side API, user authentication, and a connection to a database.",
               imgSrc: BlogSphere,
               deployedLink:
                 "https://blogsphere.herokuapp.com",
@@ -27,7 +27,7 @@ function Portfolio() {
             },
             {
               title: "Cosmic Climate",
-              description: "A collaborative project",
+              description: "A collaborative project integrating data received from multiple server-side API requests.",
               imgSrc: CosmicClimate,
               deployedLink:
                 "https://dingbat-weasel.github.io/Cosmic-Climate/",
@@ -36,7 +36,7 @@ function Portfolio() {
             },
             {
               title: "Weather Dashboard",
-              description: "bootcamp assignment",
+              description: "Bootcamp assignment. Weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.",
               imgSrc: WeatherDashboard,
               deployedLink:
                 "https://linhntran.github.io/weather-dashboard/",
@@ -45,16 +45,16 @@ function Portfolio() {
             },
             {
               title: "Password Generator",
-              description: "bootcamp assignment",
+              description: "Bootcamp assignment. An app that will run in the browser and will feature dynamically updatex HTML and CSS powered by JS.",
               imgSrc: PassGenerator,
               deployedLink:
-                "hhttps://linhntran.github.io/password-generator/",
+                "https://linhntran.github.io/password-generator/",
               githubLink:
                 "https://github.com/linhntran/password-generator.git",
             },
             {
               title: "Work Day Scheduler",
-              description: "bootcamp assignment",
+              description: "Bootcamp assignment. A simple calendar app that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
               imgSrc: WorkDayScheduler,
               deployedLink:
                 "https://linhntran.github.io/work-day-scheduler/",
@@ -63,7 +63,7 @@ function Portfolio() {
             },
             {
               title: "Note Taker",
-              description: "bootcamp assignment",
+              description: "Bootcamp assignment. An app that can be used to write and save notes using Express.js back end that will save and retrieve note data from a JSON file.",
               imgSrc: NoteTaker,
               deployedLink:
                 "https://stormy-ridge-77061.herokuapp.com/",
@@ -73,7 +73,6 @@ function Portfolio() {
           ].map((project, index) => (
             // Div container for each project
             <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
-              {/* <h2>{project.title}</h2> */}
               <Project
                 title={project.title}
                 description={project.description}

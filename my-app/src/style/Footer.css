@@ -1,5 +1,3 @@
-/* FOOTER SECTION */
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -7,13 +5,10 @@
   }
   
     .social-icons-wrapper {
-      margin-top: 1rem; /* Add margin-top to the social-icons-wrapper */
-      padding-bottom: 0; /* Remove padding-bottom from the social-icons-wrapper */
+      margin-top: 1rem;
+      padding-bottom: 0;
     }
-      
-   /* FOR FUTURE USE AND DEVELOPMENT FOR THE FOOTER SECTION */
-  
-  /* CSS for Old Devices Smaller than 320px (mobile) */
+        
   @media (max-width: 320px) {
       .designer-text,
       .copyright-text {
@@ -25,7 +20,6 @@
       }
     }
     
-    /* CSS for screens between 321px and 575px (mobile) */
     @media (min-width: 321px) and (max-width: 575px) {
       .designer-text,
       .copyright-text {
@@ -37,7 +31,6 @@
       }
     }
     
-    /* CSS for screens between 576px and 992px (tablet) */
     @media (min-width: 576px) and (max-width: 992px) {
       .designer-text,
       .copyright-text {
@@ -49,7 +42,6 @@
       }
     }
     
-    /* CSS for screens greater than 992px (desktop) */
     @media (min-width: 993px) {
       .designer-text,
       .copyright-text {

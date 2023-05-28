@@ -1,46 +1,43 @@
-/* PORTFOLIO SECTION */
-
-/* Styling for portfolio section title */
 .portfolio-title {
     text-align: center;
     margin-top: 0rem;
     margin-bottom: 2.6rem;
-    font-size: 55px;
+    font-size: 40px;
   }
-  /* Set default font and line height for body element */
+
   body {
     font-family: "Arial", sans-serif;
     line-height: 1.4;
     background-color: #f8f9fa;
   }
-  /* Styling for card body element */
+
   .card-body {
     text-align: center;
   }
-  /* Styling for card element */
+
   .card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 4px;
     text-align: center;
   }
-  /* Styling for card image element */
+
   .card-img-top {
     max-height: 200px;
     object-fit: contain;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
-  /* Styling for card title element */
+
   .card-title {
     font-size: 1.25rem;
     font-weight: bold;
   }
-  /* Styling for card text element */
+
   .card-text {
     font-size: 0.9rem;
   }
-  /* Styling for deployed and repo buttons */
+
   .card-body .btn-deployed,
   .card-body .btn-repo {
     display: inline-block;
@@ -58,44 +55,37 @@
     color: #ffffff;
     border: none;
   }
-  /* Styling for deployed button */
+
   .card-body .btn-deployed {
-    background-color: #0671fc;
+    background-color: #912f56;
   }
+
   .card-body .btn-deployed:hover {
-    background-color: #0352a7;
+    background-color: #912f56;
     text-decoration: none;
     color: #ffffff;
   }
   
-  /* Styling for repo button */
   .card-body .btn-repo {
-    background-color: #2db94e;
+    background-color: #521945;
   }
   .card-body .btn-repo:hover {
-    background-color: #1a622a;
+    background-color: #521945;
     text-decoration: none;
     color: #ffffff;
   }
-  /* Styling for deployed and repo buttons when hovered over */
+
   .card-body .btn-deployed:hover,
   .card-body .btn-repo:hover {
     text-decoration: none;
     color: #ffffff;
   }
   
-  /* Set margin for container element */
-  /* .container {
-    margin-top: 2rem;
-  } */
-  
-  /* Styling for H2 element */
   h2 {
     text-align: center;
     margin-bottom: 1rem;
   }
   
-  /* Styling for project container element */
   .project-container {
     display: flex;
     flex-direction: column;
@@ -104,16 +94,16 @@
     padding: 1rem;
     background-color: #f8f9fa;
     border-radius: 0.25rem;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px #361f27;
     height: 100%;
   }
-  /* set height to auto */
+
   @media (max-width: 767.98px) {
     .project-container {
       height: auto;
     }
   }
-  /* portfolio wrapper */
+
   .portfolio-wrapper {
     margin-top: 3rem;
     margin-bottom: 20rem;

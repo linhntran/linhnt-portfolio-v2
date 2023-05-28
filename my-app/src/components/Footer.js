@@ -1,20 +1,24 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../style/Footer.css";
 
 const socials = [
   {
-    name: "GitHub",
-    url: "https://github.com/linhntran",
-    icon: faGithub,
-    color: "#5DE512",
+    url: "mailto:tran.linhn@gmail.com",
+    icon: faEnvelope,
+    color: "#912f56",
   },
   {
-    name: "LinkedIn",
+    url: "https://github.com/linhntran",
+    icon: faGithub,
+    color: "#912f56",
+  },
+  {
     url: "https://www.linkedin.com/in/linhn-tran",
     icon: faLinkedin,
-    color: "#2EACE8",
+    color: "#912f56",
   },
 ];
 
@@ -36,7 +40,6 @@ const Footer = () => {
               >
                 <FontAwesomeIcon
                   icon={icon}
-                  bounce
                   className="footer-icon-size" 
                   style={{ color: color }}
                 />
