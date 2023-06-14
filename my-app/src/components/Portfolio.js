@@ -6,6 +6,7 @@ import WeatherDashboard from "../images/weather.png";
 import PassGenerator from "../images/password.png";
 import WorkDayScheduler from "../images/workday.png";
 import NoteTaker from "../images/notetaker.png";
+import Shifa from "../images/ShifaHome.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
@@ -16,6 +17,15 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           {[
+            {
+              title: "Shifa",
+              description: "A collaborative project using the MVC paradigm, our own server-side API, user authentication, and a connection to a database.",
+              imgSrc: Shifa,
+              deployedLink:
+                "https://shifa-wecare.herokuapp.com/",
+              githubLink:
+                "https://github.com/caseyfee/Shifa.git",
+            },
             {
               title: "Blog Sphere",
               description: "A collaborative project using the MVC paradigm, our own server-side API, user authentication, and a connection to a database.",
