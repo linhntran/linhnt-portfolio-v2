@@ -19,7 +19,7 @@ function Portfolio() {
           {[
             {
               title: "Shifa",
-              description: "A collaborative project using the MVC paradigm, our own server-side API, user authentication, and a connection to a database.",
+              description: "A collaborative project using ReactJS",
               imgSrc: Shifa,
               deployedLink:
                 "https://shifa-wecare.herokuapp.com/",
